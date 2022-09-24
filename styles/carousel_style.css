@@ -142,6 +142,9 @@
     .carousel-part1{
         height: 18rem;
     }
+    .carousel-part2{
+        margin-top: 2rem;
+    }
 }
 @media screen and (max-width: 420px) {
     .carousel-part1{
@@ -157,5 +160,8 @@
 @media screen and (max-width: 360px) {
     .carousel-part1{
         height: 13rem;
+    }
+    .carousel-part2{
+        margin-top: 1.2rem;
     }
 }
