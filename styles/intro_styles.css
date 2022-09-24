@@ -126,6 +126,7 @@
     cursor: pointer;
     border-radius: 50%;
     border: none;
+    color: #000
 }
 .plus-button{
     width: 3rem;
@@ -136,6 +137,7 @@
     cursor: pointer;
     border-radius: 50%;
     border: none;
+    color: #000
 }
 
 .minus-button:hover{
@@ -204,6 +206,7 @@
     margin-left: 1rem;
     margin-top: 1rem;
     font-size: 3rem;
+    color: #000;
 }
 @media screen and (max-width: 1100px) {
     .intro-title{
