@@ -119,6 +119,7 @@
         width: 100%;
         text-align: center;
         height: 10rem;
+        margin-top: 9rem;
     }
     .prev-carousel-button{
         order: 4;
@@ -138,12 +139,22 @@
         height: 22rem;
     }
 }
+@media screen and (max-width: 600px) {
+    .carousel-part2{
+        margin-top: 6rem;
+    }
+}
 @media screen and (max-width: 550px) {
     .carousel-part1{
         height: 18rem;
     }
     .carousel-part2{
-        margin-top: 2rem;
+        margin-top: 6.5rem;
+    }
+}
+@media screen and (max-width: 450px) {
+    .carousel-part2{
+        margin-top: 5rem;
     }
 }
 @media screen and (max-width: 420px) {
@@ -162,6 +173,11 @@
         height: 13rem;
     }
     .carousel-part2{
-        margin-top: 1.2rem;
+        margin-top: 3rem;
+    }
+}
+@media screen and (max-width: 280px) {
+    .carousel-part2{
+        margin-top: 1rem;
     }
 }
