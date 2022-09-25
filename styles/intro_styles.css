@@ -270,7 +270,7 @@
         border: none;
     }
     .info-h3{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .arrow-right-span{
         width: 0.4rem;
@@ -280,7 +280,7 @@
         border-top: 0;
     }
     .intro-info-div{
-        height: 20rem;
+        height: 23rem;
     }
     .intro-price-text{
         font-size: 3rem;
@@ -289,12 +289,31 @@
 }
 @media screen and (max-width: 480px){
     .info-h3{
-        font-size: 1rem;
+        font-size: 1.2rem;
         line-height: 2rem;
     }
     .intro-price-text{
         font-size: 2.6rem;
     }
-    
-    
+    .intro-info-div{
+        height: 20rem;
+    }
+    .intro-img{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 300px){
+    .info-h3{
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+    .intro-price-text{
+        font-size: 2.4rem;
+    }
+    .intro-info-div{
+        height: 18rem;
+    }
+    .intro-img{
+        margin-bottom: 0;
+    }
 }
